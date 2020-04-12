@@ -26,7 +26,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[])
    * NOTE: Consult particle_filter.h for more information about this method 
    *   (and others in this file).
    */
-  num_particles = 20;  // TODO: Set the number of particles
+  num_particles = 200;  // TODO: Set the number of particles
   
   std::normal_distribution<double> distx(x,std[0]);
   std::normal_distribution<double> disty(y,std[1]);
